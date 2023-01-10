@@ -1,10 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-resources:
-- ../configs/
+#resources:
+# - ../configs/
+#- tenant-sync.yaml
 
 namespace: tenant-t1-dev
 
-patchesStrategicMerge:
-- version-patch.yaml
-- values-patch.yaml
+# patchesStrategicMerge:
+# - commons-repo-patch.yaml
+# - version-patch.yaml
+# - values-patch.yaml

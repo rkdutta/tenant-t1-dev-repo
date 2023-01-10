@@ -6,7 +6,7 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    tag: v1.0.0
+    tag: v1.0.2
   secretRef:
     name: tenant-t1-commons-repo-auth
   url: ssh://git@github.com/rkdutta/tenant-t1-commons-repo

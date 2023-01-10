@@ -5,10 +5,10 @@ metadata:
   name: tenant-commons-sync
 spec:
   interval: 5m0s
-  path: <change-it-with-patch>
+  path: ./deploy/base
   prune: true
   serviceAccountName: flux-reconciler
   sourceRef:
     kind: GitRepository
-    name: app-git-repository
+    name: tenant-t1-commons-repo
   validation: client

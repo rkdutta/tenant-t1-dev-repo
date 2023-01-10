@@ -6,7 +6,7 @@ resources:
 
 namespace: tenant-t1-dev
 
-patchesStrategicMerge:
-- commons-repo-patch.yaml
+# patchesStrategicMerge:
+# - commons-repo-patch.yaml
 # - version-patch.yaml
 # - values-patch.yaml

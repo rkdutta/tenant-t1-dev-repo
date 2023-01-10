@@ -12,3 +12,4 @@ spec:
     kind: GitRepository
     name: tenant-t1-commons-repo
   validation: client
+  targetNamespace: tenant-t1-dev

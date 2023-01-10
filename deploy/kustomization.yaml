@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
 # - ../configs/
 - commons-git-repository.yaml
+- tenant-sync.yaml
 
 namespace: tenant-t1-dev
 

@@ -1,0 +1,7 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: tenant-t1-commons-repo
+spec:
+  ref:
+    tag: v1.0.0

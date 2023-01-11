@@ -1,4 +1,4 @@
 global:
   imagePullSecrets:
-  - name: credentials-container-registry-ccs
-  imageRegistry: ccscicd.azurecr.io
+  - name: credentials-container-registry-mycompany
+  imageRegistry: mycompanycicd.azurecr.io

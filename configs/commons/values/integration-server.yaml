@@ -9,7 +9,7 @@ integration-server:
       memory: 16Gi
   keySecrets:
     name: keystore-is
-    mountPath: "/opt/softwareag/common/conf"
+    mountPath: "/opt/mysoftware/common/conf"
   configMapEnvRefs:
     - name: endpoint-db-wm
     - name: endpoint-db-cache

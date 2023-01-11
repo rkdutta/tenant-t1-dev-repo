@@ -40,7 +40,7 @@ for dir in */ ; do
                 if [[ $file == envs/* ]]; then
                         kustomize edit add configmap $fileNameWithOutPathAndExtn --behavior=$updateStratey --from-env-file=$file --disableNameSuffixHash         
                 elif [[ $file == values/* ]]; then
-                        kustomize edit add configmap $fileNameWithOutPathAndExtn-$configMapNameSuffix --behavior=create --from-file=$file --disableNameSuffixHash
+                        kustomize edit add configmap $fileNameWithOutPathAndExtn-$configMapNameSuffix --behavior=create --from-file=values.yaml=$file --disableNameSuffixHash
                 fi
         done
         cd ..

@@ -95,85 +95,85 @@ configMapGenerator:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/api-gateway.yaml
+  - values.yaml=values/api-gateway.yaml
   name: api-gateway-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/db-configurator.yaml
+  - values.yaml=values/db-configurator.yaml
   name: db-configurator-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/db-initializer.yaml
+  - values.yaml=values/db-initializer.yaml
   name: db-initializer-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/ewih-service.yaml
+  - values.yaml=values/ewih-service.yaml
   name: ewih-service-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/globals.yaml
+  - values.yaml=values/globals.yaml
   name: globals-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/integration-server.yaml
+  - values.yaml=values/integration-server.yaml
   name: integration-server-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/kie-server.yaml
+  - values.yaml=values/kie-server.yaml
   name: kie-server-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/kie-workbench.yaml
+  - values.yaml=values/kie-workbench.yaml
   name: kie-workbench-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/ldap.yaml
+  - values.yaml=values/ldap.yaml
   name: ldap-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/memcached.yaml
+  - values.yaml=values/memcached.yaml
   name: memcached-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/my-webmethods-server.yaml
+  - values.yaml=values/my-webmethods-server.yaml
   name: my-webmethods-server-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/process-service.yaml
+  - values.yaml=values/process-service.yaml
   name: process-service-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/universal-messaging-configurator.yaml
+  - values.yaml=values/universal-messaging-configurator.yaml
   name: universal-messaging-configurator-specific-config
   options:
     disableNameSuffixHash: true
 - behavior: create
   files:
-  - values/universal-messaging.yaml
+  - values.yaml=values/universal-messaging.yaml
   name: universal-messaging-specific-config
   options:
     disableNameSuffixHash: true
